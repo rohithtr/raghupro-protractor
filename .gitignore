@@ -58,6 +58,6 @@ typings/
 .env
 
 #Reports
-mochawesome-report
+reports/
 
 

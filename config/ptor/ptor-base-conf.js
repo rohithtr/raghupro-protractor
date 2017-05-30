@@ -15,7 +15,7 @@ exports.config = {
     'reporter': 'mocha-jenkins-reporter',
     'reporterOptions': {
       'junit_report_name': 'Raghupro Protractor Tests',
-      'junit_report_path': './raghupro-protractor-reports.xml',
+      'junit_report_path': 'reports/raghupro-protractor-reports.xml',
       'junit_report_stack': 1
     },
     ui: 'bdd',

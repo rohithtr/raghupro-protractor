@@ -6,7 +6,7 @@
   "scripts": {
     "test": "protractor config/ptor/ptor-base-conf.js",
     "start": "protractor config/ptor/ptor-base-conf.js",
-    "pretest": "webdriver-manager update"
+    "pretest": "npm install && webdriver-manager update"
   },
   "repository": {
     "pre-start": "webdriver-manager update",
