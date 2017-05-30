@@ -10,9 +10,14 @@ exports.config = {
   framework: 'mocha',
   ignoreSynchronization: true,
   mochaOpts: {
-    slow: 3000,
-    timeout: 900000,
-    reporter: 'mochawesome',
+    'slow': 3000,
+    'timeout': 900000,
+    'reporter': 'mocha-jenkins-reporter',
+    'reporterOptions': {
+      'junit_report_name': 'Raghupro Protractor Tests',
+      'junit_report_path': './raghupro-protractor-reports.xml',
+      'junit_report_stack': 1
+    },
     ui: 'bdd',
   },
   params: {
