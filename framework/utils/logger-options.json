@@ -1,0 +1,59 @@
+{
+    "console": {
+        "level": "info",
+        "silent": false,
+        "colorize": true,
+        "timestamp": false,
+        "json": false,
+        "stringify": false,
+        "prettyPrint": true,
+        "depth": 2,
+        "humanReadableUnhandledException": true,
+        "showLevel": true,
+        "formatter": null,
+        "stderrLevels": [
+            "error",
+            "debug"
+        ]
+    },
+    "file": [
+        {
+            "level": "debug",
+            "name": "default",
+            "silent": false,
+            "colorize": false,
+            "timestamp": false,
+            "filename": "logs/all_default.log",
+            "maxSize": 1024000000,
+            "maxFiles": 100,
+            "json": false,
+            "prettyPrint": true,
+            "depth": 2,
+            "logstash": false,
+            "showLevel": true,
+            "formatter": null,
+            "tailable": true,
+            "maxRetries": 2,
+            "zippedArchive": true
+        },
+        {
+            "level": "error",
+            "name": "error",
+            "silent": false,
+            "colorize": false,
+            "timestamp": false,
+            "filename": "logs/all_errors.log",
+            "maxSize": 1024000000,
+            "maxFiles": 100,
+            "json": false,
+            "prettyPrint": true,
+            "depth": 2,
+            "logstash": false,
+            "showLevel": true,
+            "formatter": null,
+            "tailable": true,
+            "maxRetries": 2,
+            "zippedArchive": true
+        }
+    ]
+}
